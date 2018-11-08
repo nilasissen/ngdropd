@@ -1,10 +1,18 @@
 <html ng-app="myApp" ng-controller="dropDownController as dropdown">
-    <head>
 
-    </head>
-    <body >
+<head>
+    <script src="./js/angular.min.js"></script>
+    <script type="text/javascript" src="./js/qiSpa.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body layout="column">
+    <div class="dopPos" align="center" data-ng-if="dropdown.values">
         <h1>
             {{dropdown.greetings}}
-        </h1> 
-    </body>
+        </h1>
+        <dropdown list="dropdown.values" selected="">Select Driver / pair Vehicle </dropdown><br/>
+    </div>
+</body>
+
 </html>

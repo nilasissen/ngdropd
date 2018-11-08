@@ -1,0 +1,39 @@
+[{
+  "driver": {
+    "id":"1",
+    "title": "DRIVER",
+    "name": "Li Nanxing",
+    "phone": "+6594457422",
+    "driver_image":"./js/vendors/img/driver1.jpeg"
+  },
+  "car": {
+    "id":"1",
+    "title": "VEHICLE",
+    "vehicle_number": "SGD1234F",
+    "vehicle_class": "Lamborghini Aventador",
+    "vehicle_image": "./js/vendors/img/lambo.jpg"
+  }
+},
+{
+  "driver": {
+    "id":"2",
+    "title": "DRIVER",
+    "name": "Li Yinzhu",
+    "phone": "+6594457422",
+    "driver_image":"./js/vendors/img/Yinzhu_Zhou.jpg"
+  },
+  "car": {
+
+  }
+}, {
+  "driver": {
+
+  },
+  "car": {
+    "id":"3",
+    "title": "VEHICLE",
+    "vehicle_number": "LKK1200F",
+    "vehicle_class": "Jaguar",
+    "vehicle_image": "./js/vendors/img/Jaguar-XE.jpg"
+  }
+}]

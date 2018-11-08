@@ -1,0 +1,100 @@
+.dropbtn {
+    background-color:white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    border-style: solid;
+    border-color:black;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C2D1DF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 300px;
+    /* overflow-y: scroll;
+    height: 130px; */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:#374351;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3387ad;}
+  
+  /* Popover styling */
+  .popover__title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: rgb(228, 68, 68);
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .popover__wrapper {
+      position: relative;
+      margin-top: 1.5rem;
+      display: inline-block;
+  }
+  .popover__content {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      left: 10px;
+      transform: translate(0,10px);
+      background-color: #374351;
+      padding: 1.5rem;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      width: auto;
+      overflow-y: visible !important;
+  }
+  .popover__content:before {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      right: calc(50% - 10px);
+      top: -8px;
+      border-style: solid;
+      border-width: 0 10px 10px 10px;
+      border-color: transparent transparent #BFBFBF transparent;
+      transition-duration: 0.3s;
+      transition-property: transform;
+  }
+  .alpha { 
+    z-index: 10 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translate(186px,-20px) !important;
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97) !important;
+  }
+  .prof-Image {
+      width: 50px;
+      height: 50px;
+  }
+  .car-driver-ul {
+    list-style-type: none;
+  }
+  .popover__message {
+      color: white;
+  }
