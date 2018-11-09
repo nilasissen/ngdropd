@@ -13,7 +13,7 @@ Verify the deployment by navigating to your server address in your preferred bro
 ```
 ### Tech
 
-SBS uses a number of open source projects to work properly:
+ngdropd uses a number of open source projects to work properly:
 
 * [Angular js](https://angularjs.org/) - HTML enhanced for web apps!
 * [Vs Code Editor](https://code.visualstudio.com/) - awesome web-based text editor
