@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body layout="column">
-    <div class="dopPos" align="center" data-ng-if="dropdown.values">
+<body layout="column" >
+    <div align="center" data-ng-mouseleave="dropdown.hide()"  data-ng-if="dropdown.values">
         <h1>
             {{dropdown.greetings}}
         </h1>
-        <dropdown list="dropdown.values" selected="">Select Driver / pair Vehicle </dropdown><br/>
+        <div >
+            <dropdown list="dropdown.values" selected="">Select Driver / pair Vehicle </dropdown><br/>
+        </div>
     </div>
 </body>
 
