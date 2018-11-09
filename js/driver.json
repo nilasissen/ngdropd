@@ -10,7 +10,7 @@
     "id":"1",
     "title": "VEHICLE",
     "vehicle_number": "SGD1234F",
-    "vehicle_class": "Lamborghini Aventador",
+    "vehicle_class": "Lamborghini",
     "vehicle_image": "./js/vendors/img/lambo.jpg"
   }
 },

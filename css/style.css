@@ -68,7 +68,7 @@ overflow: hidden;
       left: 10px;
       transform: translate(0,10px);
       background-color: #374351;
-      padding: 1.5rem;
+      padding: 2.5rem;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
       width: auto;
       overflow-y: visible !important;
@@ -95,6 +95,7 @@ overflow: hidden;
   .prof-Image {
       width: 50px;
       height: 50px;
+      margin: 1px 24px -28px -76px;
   }
   .car-driver-ul {
     list-style-type: none;
